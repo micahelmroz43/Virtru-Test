@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="url" value="https://mail.google.com/" />
+
+		<parameter name="email" value="mikeautomationtest1@gmail.com" />
+		<parameter name="password" value="ap2315ap2315" />
+
+		<parameter name="email_subject" value="The Pinball Game Archives" />
+		<parameter name="email_message" value="https://pinside.com/pinball/archive" />
+		<classes>
+			<class name="tests.smokeTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
